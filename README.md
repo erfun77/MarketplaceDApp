@@ -4,10 +4,10 @@ This is a marketplace that runs on the blockchain. It allows people to list item
 ## developement
 The smart contracts are build using truffle and tested locally using ganache-cli. The project is also deployed on rinkedby testnet. The front end is developed using React.js.
 
-IPFS is also used to store image files related to donated assets.
+IPFS is also used to store image files related to products.
 
 ## test DApp on reinkedby
-it is assumed that you have nodejs and yarn installed. You also need to have metamask extension added to your chrome beowser.
+it is assumed that you have nodejs and yarn installed. You also need to have metamask extension added to your chrome browser.
 
 The next steps will be:
 1. Clone project
@@ -19,7 +19,7 @@ yarn
 ```
 yarn start
 ```
-If you are going to redeploy the contracts to testtnet you can use:
+If you are going to redeploy the contracts to testnet you can use:
 ```
 truffle migrate --reset --network rinkeby
 ```
@@ -27,7 +27,7 @@ truffle migrate --reset --network rinkeby
 You need to install truffle and ganache and truffle hdwallet-provider to compile, migrate, and test smart contracts locally.
 In a command line window run: ganache-cli
 Move to another command line window.
-In AssetDonation sub-directory:
+In MarketPlace sub-directory:
 ```
 1. truffle compile
 ```
