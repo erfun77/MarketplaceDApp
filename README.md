@@ -6,7 +6,7 @@ The smart contracts are build using truffle and tested locally using ganache-cli
 
 IPFS is also used to store image files related to products.
 
-## test DApp on reinkedby
+## test DApp on reinkeby
 it is assumed that you have nodejs and yarn installed. You also need to have metamask extension added to your chrome browser.
 
 The next steps will be:
